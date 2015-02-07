@@ -1,0 +1,56 @@
+{
+  "name": "react-sortable-list",
+  "version": "0.0.1",
+  "description": "a sortable list component using html5 drag and drop api",
+  "main": "js/search.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/StevenIseki/react-sortable-list.git"
+  },
+  "author": "Steven Iseki",
+  "license": "MIT",
+  "homepage": "https://github.com/StevenIseki/react-sortable-list.git",
+  "peerDependencies": {
+    "react": "*"
+  },
+  "devDependencies": {
+    "gulp": "*",
+    "connect": "*",
+    "connect-livereload": "*",
+    "gulp-livereload": "*",
+    "serve-static": "*",
+    "serve-index": "*",
+    "opn": "*",
+    "gulp-react": "*",
+    "react": "*",
+    "browserify": "*",
+    "watchify": "*",
+    "reactify": "*",
+    "vinyl-source-stream": "*",
+    "tape": "*"
+  },  
+  "testling": {
+    "files": "test/*.js",
+    "browsers": [
+      "ie/8..latest",
+      "chrome/22..latest",
+      "firefox/16..latest",
+      "safari/latest",
+      "opera/11.0..latest",
+      "iphone/6",
+      "ipad/6",
+      "android-browser/latest"
+    ]
+  },
+    "scripts": {
+    "test": "tape test/*.js"
+  },
+    "keywords": [
+    "react-component",
+    "react",
+    "search",
+    "browserify",
+    "pure css",
+    "search-box"
+  ]
+}

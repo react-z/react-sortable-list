@@ -1,0 +1,20 @@
+.react-search {
+    margin: 0;
+    padding: 2em;
+}
+
+.react-search .input-text {
+  font-size: 150%;
+  font-weight: 250;
+  line-height: 1.5;
+  color: #666;
+}
+
+
+/* TODO */
+/* should we just add in the styles so if we don't want pure.css a bit of thinking needed with this */
+
+li.placeholder { background: rgb(255,240,120);}
+li.placeholder:before {content: "Drop here"; color: rgb(225,210,90);}
+ul { list-style: none; margin:0; padding:0}
+li {padding: 5px; background:#eee}
