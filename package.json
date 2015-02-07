@@ -2,7 +2,7 @@
   "name": "react-sortable-list",
   "version": "0.0.1",
   "description": "a sortable list component using html5 drag and drop api",
-  "main": "js/search.js",
+  "main": "js/sortable-list.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/StevenIseki/react-sortable-list.git"
@@ -32,13 +32,10 @@
   "testling": {
     "files": "test/*.js",
     "browsers": [
-      "ie/8..latest",
       "chrome/22..latest",
       "firefox/16..latest",
       "safari/latest",
-      "opera/11.0..latest",
       "iphone/6",
-      "ipad/6",
       "android-browser/latest"
     ]
   },

@@ -14,9 +14,9 @@ react-sortable-list is a sortable list component using react.js and html5 drag a
 var React = require('react');
 var SortableList = require('react-sortable-list');
 
-var OPTIONS = { prefix: 'seconds elapsed!', delay: 100}
+var colors = ["Red","Green","Blue","Yellow","Black","White","Orange"];
 
-React.renderComponent(<Search options={OPTIONS} />, document.getElementById("container"));
+React.renderComponent(<SortableList data={colors} />, document.getElementById("container"));
 
 ```
 
