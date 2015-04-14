@@ -22,9 +22,7 @@ React.renderComponent(<SortableList data={colors} />, document.getElementById("c
 
 ## Styles
 
-All React UI components are made to be compatible with [pure CSS](http://purecss.io/) which gives some nice responsive styles. 
-
-The components can also be used with your own custom style sheets. A minimal sortable-list.css style sheet is included as a guide.
+react-sortable-list can be used with your own custom styles. A minimal sortable-list.css style sheet is included as a guide.
 
 ## Development
 
