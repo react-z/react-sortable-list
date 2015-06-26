@@ -1,53 +1,47 @@
 {
   "name": "react-sortable-list",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "a sortable list component using html5 drag and drop api",
-  "main": "js/sortable-list.js",
+  "main": "lib/sortable-list.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/StevenIseki/react-sortable-list.git"
   },
-  "author": "Steven Iseki",
+  "author": "Steven Iseki <stevenisekimartin@gmail.com>",
   "license": "MIT",
-  "homepage": "https://github.com/StevenIseki/react-sortable-list.git",
   "peerDependencies": {
-    "react": "*"
+    "react": "^0.13.0"
   },
   "devDependencies": {
-    "gulp": "*",
-    "connect": "*",
-    "connect-livereload": "*",
-    "gulp-livereload": "*",
-    "serve-static": "*",
-    "serve-index": "*",
-    "opn": "*",
-    "gulp-react": "*",
-    "react": "*",
-    "browserify": "*",
-    "watchify": "*",
-    "reactify": "*",
-    "vinyl-source-stream": "*",
-    "tape": "*"
-  },  
+    "express": "^4.7.2",
+    "react": "^0.13.0",
+    "babel-core": "^5.6.7",
+    "babel-loader": "^5.1.4",
+    "node-libs-browser": "^0.5.2",
+    "webpack": "^1.9.12",
+    "tape": "^4.0.0"
+  },
   "testling": {
     "files": "test/*.js",
     "browsers": [
       "chrome/22..latest",
-      "firefox/16..latest",
-      "safari/latest",
-      "iphone/6",
-      "android-browser/latest"
+      "firefox/16..latest"
     ]
   },
-    "scripts": {
-    "test": "tape test/*.js"
+  "scripts": {
+    "test": "tape test/*.js",
+    "build": "babel src --out-dir lib",
+    "example": "webpack --config ./example/webpack.config.js",
+    "serve": "node ./example/server.js",
+    "start": "npm run example && npm run serve"
   },
-    "keywords": [
-    "react-component",
+  "keywords": [
     "react",
-    "search",
-    "browserify",
-    "pure css",
-    "search-box"
+    "react-component",
+    "sort",
+    "list",
+    "sortable list",
+    "sortable-list",
+    "sortable"
   ]
 }

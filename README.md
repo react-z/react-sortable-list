@@ -2,8 +2,6 @@
 
 react-sortable-list is a sortable list component using react.js and html5 drag and drop api.
 
-![](example/screenshot.png)
-
 ## Installation
 
 `npm install react-sortable-list --save`
@@ -16,7 +14,7 @@ var SortableList = require('react-sortable-list');
 
 var colors = ["Red","Green","Blue","Yellow","Black","White","Orange"];
 
-React.renderComponent(<SortableList data={colors} />, document.getElementById("container"));
+React.render(<SortableList data={colors} />, document.getElementById("container"));
 
 ```
 
@@ -25,10 +23,10 @@ React.renderComponent(<SortableList data={colors} />, document.getElementById("c
 react-sortable-list can be used with your own custom styles. A minimal sortable-list.css style sheet is included as a guide.
 
 ## Development
-
-Initial set up, run:
     
     npm install
+    npm test
+    npm start
 
 ## License
 

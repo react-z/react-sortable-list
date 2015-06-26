@@ -1,12 +1,5 @@
-var React = require('react');
-var SortableList = require('../jsx/sortable-list.jsx');
+import React from 'react'
+import SortableList from '../lib/sortable-list'
+
 var colors = ["Red","Green","Blue","Yellow","Black","White","Orange"];
-
-React.render(
-	React.createElement(
-		SortableList, 
-		{data: colors}
-	),
-	document.getElementById("container")
-);
-
+React.render(<SortableList data={colors} />, document.getElementById("container"));
