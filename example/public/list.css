@@ -7,22 +7,22 @@
   color: #666;
 }
 
-ul { 
-  list-style: none; 
-  margin:0; 
+ul {
+  list-style: none;
+  margin:0;
   padding:0
 }
 
 li {
-  padding: 1em; 
+  padding: 1em;
   background:#eee
 }
 
-li.placeholder { 
+li.placeholder {
   background: #03CC85;
 }
 
 li.placeholder:before {
-  content: "Drop here"; 
+  content: "Drop here";
   color: #666;
 }

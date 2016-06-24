@@ -1,5 +1,17 @@
-import React from 'react'
-import SortableList from '../lib/sortable-list'
+import SortableList from '../lib/SortableList' // 'react-sortable-list'
+import ReactDOM from 'react-dom'
+import React, { Component, PropTypes } from 'react'
 
-var colors = ["Red","Green","Blue","Yellow","Black","White","Orange"];
-React.render(<SortableList data={colors} />, document.getElementById("container"));
+class TestComponent extends Component {
+  render () {
+    let colors = ["Red","Green","Blue","Yellow","Black","White","Orange"];
+
+    return (
+      <div>
+        <SortableList data={colors} />
+      </div>
+    )
+  }
+}
+
+ReactDOM.render( <TestComponent />, document.getElementById('root') )
