@@ -4,11 +4,11 @@ react-sortable-list is a sortable list component using react and html5 drag and 
 
 ## Installation
 
-`npm install react-sortable-list --save`
+`yarn add react-sortable-list`
 
-## Usage
+## Use
 
-```javascript
+```jsx
 import SortableList from 'react-sortable-list'
 import ReactDOM from 'react-dom'
 import React, { Component, PropTypes } from 'react'
@@ -30,14 +30,20 @@ ReactDOM.render( <TestComponent />, document.getElementById('root') )
 
 ## Styles
 
-react-sortable-list can be used with your own custom styles. A minimal [list.css](https://github.com/StevenIseki/react-sortable-list/blob/master/example/public/list.css) style sheet is included as a guide.
+Uses styled-components 💅 for the base styling.
 
 ## Development
+    yarn
+    npm run dev
 
-    npm install
+## Build
+    yarn
     npm run build
-    npm test
-    npm start
+    npm login
+    npm version patch
+    git add -A
+    git push origin master
+    npm publish
 
 ## License
 
