@@ -1,4 +1,4 @@
-import SortableList from '../src/SortableList' // 'react-sortable-list'
+import SortableList from '../lib/SortableList' // 'react-sortable-list'
 import ReactDOM from 'react-dom'
 import React, { Component } from 'react'
 

@@ -11,11 +11,11 @@ react-sortable-list is a sortable list component using react and html5 drag and 
 ```jsx
 import SortableList from 'react-sortable-list'
 import ReactDOM from 'react-dom'
-import React, { Component, PropTypes } from 'react'
+import React, { Component } from 'react'
 
 class TestComponent extends Component {
-  render () {
-    let colors = ["Red","Green","Blue","Yellow","Black","White","Orange"];
+  render() {
+    let colors = ['Red', 'Green', 'Blue', 'Yellow', 'Black', 'White', 'Orange']
 
     return (
       <div>
@@ -25,7 +25,7 @@ class TestComponent extends Component {
   }
 }
 
-ReactDOM.render( <TestComponent />, document.getElementById('root') )
+ReactDOM.render(<TestComponent />, document.getElementById('root'))
 ```
 
 ## Styles
