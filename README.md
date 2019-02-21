@@ -1,5 +1,9 @@
 # react-sortable-list
 
+[![npm version](https://badge.fury.io/js/react-sortable-list.svg)](https://badge.fury.io/js/react-sortable-list)
+
+![](https://raw.githubusercontent.com/StevenIseki/react-sortable-list/master/example/screenshot.gif)
+
 react-sortable-list is a sortable list component using react and html5 drag and drop api.
 
 ## Installation
