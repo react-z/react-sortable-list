@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SortableList renders correctly and matches snapshot 1`] = `
+<div
+  className="sc-bdVaJa hhtLnT"
+>
+  <ul
+    onDragOver={[Function]}
+  >
+    <li
+      data-id={0}
+      draggable="true"
+      onDragEnd={[Function]}
+      onDragStart={[Function]}
+    >
+      Red
+    </li>
+    <li
+      data-id={1}
+      draggable="true"
+      onDragEnd={[Function]}
+      onDragStart={[Function]}
+    >
+      Green
+    </li>
+    <li
+      data-id={2}
+      draggable="true"
+      onDragEnd={[Function]}
+      onDragStart={[Function]}
+    >
+      Blue
+    </li>
+    <li
+      data-id={3}
+      draggable="true"
+      onDragEnd={[Function]}
+      onDragStart={[Function]}
+    >
+      Yellow
+    </li>
+    <li
+      data-id={4}
+      draggable="true"
+      onDragEnd={[Function]}
+      onDragStart={[Function]}
+    >
+      Black
+    </li>
+    <li
+      data-id={5}
+      draggable="true"
+      onDragEnd={[Function]}
+      onDragStart={[Function]}
+    >
+      White
+    </li>
+    <li
+      data-id={6}
+      draggable="true"
+      onDragEnd={[Function]}
+      onDragStart={[Function]}
+    >
+      Orange
+    </li>
+  </ul>
+</div>
+`;
